@@ -1,0 +1,142 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CONTENEDOR */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+}
+
+
+/* TITULO */
+
+.titulo-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.titulo-box h1 {
+    color: white;
+    font-size: 38px;
+}
+
+
+/* CAJAS */
+
+.box {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* TEXTO */
+
+.box h2 {
+    color: #2b9348;
+}
+
+.box p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+
+/* EJEMPLO */
+
+.ejemplo {
+    background: #e8f5e9;
+    padding: 10px;
+    border-left: 5px solid #2b9348;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/* INPUT */
+
+input {
+    width: 70%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+/* BOTÓN */
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #2b9348;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+
+/* RESULTADO */
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* BOTÓN VOLVER */
+
+.btn-volver {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #000;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .titulo-box h1 {
+        font-size: 28px;
+    }
+}

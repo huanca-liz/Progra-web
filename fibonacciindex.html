@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+    <link rel="stylesheet" href="./CSS/styles3.css">
+</head>
+
+<body>
+    <a href="./index.html" class="btn-volver">⬅ Volver</a>
+    <div class="titulo-box">
+        <h1>Secuencia de Fibonacci</h1>
+    </div>
+    <div class="box">
+        <h2>¿Qué es Fibonacci?</h2>
+
+        <p>
+            La secuencia de Fibonacci es una serie de números donde cada número es la suma de los dos anteriores.
+        </p>
+
+        <p>
+            Comienza normalmente así:
+        </p>
+
+        <p class="ejemplo">
+            0, 1, 1, 2, 3, 5, 8, 13, 21...
+        </p>
+
+        <p>
+            Esta secuencia aparece en la naturaleza, como en flores, hojas y conchas.
+        </p>
+
+        <h3>¿Cómo funciona el programa?</h3>
+
+        <p>
+            El usuario ingresa una cantidad y el programa genera esa cantidad de números siguiendo la lógica de Fibonacci.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Generar Fibonacci</h2>
+
+        <input type="number" id="cantidad" placeholder="Cantidad de números">
+        <button onclick="generarFibonacci()">Generar</button>
+
+        <p id="resultado"></p>
+    </div>
+
+
+    <script src="./JAVASCRIPT/fibonacci.js"></script>
+</body>
+
+</html>

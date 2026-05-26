@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primos</title>
+    <link rel="stylesheet" href="./CSS/styles2.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="titulo-box">
+            <h1>Números Primos</h1>
+        </div>
+
+        <div class="box">
+            <h2>¿Qué son los números primos?</h2>
+
+            <p>
+                Los números primos son aquellos números naturales mayores que 1 que solo pueden dividirse exactamente entre 1 y ellos mismos.
+            </p>
+
+            <p>
+                Esto significa que no tienen otros divisores. Por ejemplo:
+            </p>
+
+            <p class="ejemplo">
+                ✔ 7 es primo porque solo se puede dividir entre 1 y 7.
+            </p>
+
+            <p>
+                En cambio, un número como 8 no es primo porque se puede dividir entre 1, 2, 4 y 8.
+            </p>
+
+            <h3>¿Cómo funciona el programa?</h3>
+
+            <p>
+                El usuario ingresa un número y el programa verifica si ese número tiene más divisores aparte de 1 y él mismo.
+            </p>
+
+            <p>
+                Si encuentra otro divisor, el número NO es primo. Si no encuentra ninguno, entonces es primo.
+            </p>
+        </div>
+        <div class="box">
+            <h2>Verificar número</h2>
+
+            <input type="number" id="numero" placeholder="Ingresa un número">
+            <button onclick="verificarPrimo()">Verificar</button>
+
+            <p id="resultado"></p>
+        </div>
+
+
+        <a href="./index.html" class="btn-volver">⬅ Volver al inicio </a>
+
+        <script src="./JAVASCRIPT/primos.js"></script>
+</body>
+
+</html>
